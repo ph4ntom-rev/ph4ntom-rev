@@ -16,7 +16,7 @@
 ```
 > whoami
 ph4ntom — reverse engineer focused on binary analysis,
-anti-cheat research, and AI-augmented RE tooling.
+security tooling, and AI-augmented RE infrastructure.
 
 > cat /etc/motd
 "The binary never lies. The decompiler sometimes does."
@@ -28,7 +28,7 @@ anti-cheat research, and AI-augmented RE tooling.
 Disassembly      ██████████████████████░░   IDA Pro 9.x / Hex-Rays
 AI Integration   ████████████████████░░░░   Gemini 3.1 Pro / Deep Think
 Languages        ██████████████████░░░░░░   C · C++ · Python · x86 ASM
-Game Hacking     ████████████████░░░░░░░░   Source 2 · Unity (il2cpp)
+Security Tools   ████████████████░░░░░░░░   MCP Server · REST API · Auth
 Tooling          █████████████████████░░░   IDAPython · Frida · YARA
 ```
 
