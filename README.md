@@ -13,10 +13,11 @@
 
 ### 🔬 About
 
-```
+```text
 > whoami
 ph4ntom — reverse engineer focused on binary analysis,
-security tooling, and AI-augmented RE infrastructure.
+OS internals, and AI-augmented hacking infrastructure.
+Building bridges between autonomous agents and Win32/Ring-0.
 
 > cat /etc/motd
 "The binary never lies. The decompiler sometimes does."
