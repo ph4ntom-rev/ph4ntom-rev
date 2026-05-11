@@ -36,7 +36,8 @@ Tooling          █████████████████████
 
 | Project | Description | Status |
 |:--------|:------------|:------:|
-| **Antigravity IDA Bridge** | AI-powered IDA Pro REST API with 90+ endpoints | 🔧 Active |
+| **[Antigravity IDA Bridge](https://github.com/ph4ntom-rev/antigravity-ida-bridge)** | AI-powered IDA Pro REST API with 90+ endpoints | 🔧 Active |
+| **[Antigravity Windows Bridge](https://github.com/ph4ntom-rev/antigravity-windows-bridge)** | AI-powered local Windows API REST Bridge (RCE, Memory, Registry, UI) | 🚀 Active |
 
 ### 📊 Stats
 
