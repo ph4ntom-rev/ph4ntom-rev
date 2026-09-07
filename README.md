@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/Binary_Analysis-critical?style=for-the-badge&logo=buffer&logoColor=white"/>
 </p>
 
+<p align="center">
+  🌐 <a href="https://ph4ntom-rev.uz/"><strong>Personal website — ph4ntom-rev.uz</strong></a>
+</p>
+
 ---
 
 ### 🔬 About
