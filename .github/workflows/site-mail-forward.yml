@@ -1,0 +1,39 @@
+# Install in ph4ntom-rev/ph4ntom-rev at .github/workflows/site-mail-forward.yml.
+# Only triggers the site's fixed mail-copy operation. No mailbox credentials,
+# messages or recipient addresses are shared with GitHub.
+name: Site mail forwarding
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/site-mail-forward.yml]
+  schedule:
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: site-mail-forward
+  cancel-in-progress: false
+jobs:
+  check:
+    if: github.repository == 'ph4ntom-rev/ph4ntom-rev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      id-token: write
+    steps:
+      - name: Ask the site to check incoming mail
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          const endpoint = 'https://ph4ntom-rev.uz/api/mail-forward/run';
+          const url = new URL(process.env.ACTIONS_ID_TOKEN_REQUEST_URL);
+          url.searchParams.set('audience', endpoint);
+          const identity = await fetch(url, {headers: {Authorization: 'Bearer ' + process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN}, signal: AbortSignal.timeout(15000)});
+          if (!identity.ok) throw Error('Scheduler authentication unavailable');
+          const {value} = await identity.json();
+          const response = await fetch(endpoint, {method: 'POST', redirect: 'manual', headers: {Authorization: 'Bearer ' + value}, signal: AbortSignal.timeout(150000)});
+          if (!response.ok) throw Error('Site mail check failed: HTTP ' + response.status);
+          console.log('Site mail check completed.');
+          NODE
+
