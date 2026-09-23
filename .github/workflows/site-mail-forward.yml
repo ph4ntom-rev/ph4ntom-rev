@@ -7,7 +7,7 @@ on:
     branches: [main]
     paths: [.github/workflows/site-mail-forward.yml]
   schedule:
-    - cron: '2-57/5 * * * *'
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
   workflow_dispatch:
 permissions: {}
 concurrency:
@@ -36,4 +36,3 @@ jobs:
           if (!response.ok) throw Error('Site mail check failed: HTTP ' + response.status);
           console.log('Site mail check completed.');
           NODE
-
