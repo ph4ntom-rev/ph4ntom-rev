@@ -1,13 +1,8 @@
 # Install in ph4ntom-rev/ph4ntom-rev at .github/workflows/site-mail-forward.yml.
-# Only triggers the site's fixed mail-copy operation. No mailbox credentials,
+# Manual recovery only; Cloudflare runs the regular timer. No mailbox credentials,
 # messages or recipient addresses are shared with GitHub.
-name: Site mail forwarding
+name: Site mail forwarding (manual recovery)
 on:
-  push:
-    branches: [main]
-    paths: [.github/workflows/site-mail-forward.yml]
-  schedule:
-    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
   workflow_dispatch:
 permissions: {}
 concurrency:
