@@ -42,7 +42,7 @@ Tooling          █████████████████████
 | Project | Description | Status |
 |:--------|:------------|:------:|
 | **[ph4ntom IDA Bridge](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge)** | Secure local REST, CLI & MCP bridge for IDA Pro — 102 endpoints | ✅ v6.1.0 |
-| **[Telegram MCP Bridge](https://github.com/ph4ntom-rev/telegram-mcp-bridge)** | Durable, allowlisted Telegram Bot API bridge for MCP agents | ✅ v1.0.0 |
+| **[rtw89 Monitor Injection](https://github.com/ph4ntom-rev/rtw89-monitor-injection)** | Realtek RTL8852AE Monitor Mode & Raw Frame Injection Linux kernel driver patch | 🚀 v1.0.0 |
 | **[Antigravity Windows Bridge](https://github.com/ph4ntom-rev/antigravity-windows-bridge)** | AI-powered local Windows API REST Bridge (RCE, Memory, Registry, UI) | 🚀 Active |
 
 ### 📊 Stats
