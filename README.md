@@ -43,7 +43,8 @@ Tooling          █████████████████████
 |:--------|:------------|:------:|
 | **[ph4ntom IDA Bridge](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge)** | Autonomous MCP & REST bridge for IDA Pro 9.x — 54 MCP tools, 102 REST endpoints | 🚀 [v6.2.0](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge/releases/tag/v6.2.0) |
 | **[rtw89 Monitor Injection](https://github.com/ph4ntom-rev/rtw89-monitor-injection)** | Realtek RTL8852AE Monitor Mode & Raw Frame Injection Linux kernel driver patch | 🚀 [v1.0.0](https://github.com/ph4ntom-rev/rtw89-monitor-injection) |
-| **[Antigravity Windows Bridge](https://github.com/ph4ntom-rev/antigravity-windows-bridge)** | AI-powered local Windows API REST Bridge (RCE, Memory, Registry, UI) | 🚀 Active |
+| **[Antigravity Windows Bridge](https://github.com/ph4ntom-rev/antigravity-windows-bridge)** | AI-powered local Windows API REST Bridge (RCE, Memory, Registry, UI) | ⛔ Inactive · Outdated |
+| **[Antigravity Chrome Bridge](https://github.com/ph4ntom-rev/antigravity-chrome-bridge)** | Native C++ MCP server for Chrome automation — zero dependencies, 22 tools | ⛔ Inactive · Outdated |
 
 ### 📊 Stats
 
