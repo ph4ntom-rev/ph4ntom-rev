@@ -42,7 +42,7 @@ Tooling          █████████████████████
 | Project | Description | Status |
 |:--------|:------------|:------:|
 | **[ph4ntom IDA Bridge](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge)** | Autonomous MCP & REST bridge for IDA Pro 9.x — 54 MCP tools, 102 REST endpoints | 🚀 [v6.2.0](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge/releases/tag/v6.2.0) |
-| **[ph4ntom Vitrum](https://github.com/ph4ntom-rev/ph4ntom-vitrum)** | Automated *in-vitro* static malware dissection pipeline — Telegram (2 GB MTProto), AI agents & IDA Pro 9.5 | 🚀 [v0.1.0](https://github.com/ph4ntom-rev/ph4ntom-vitrum/releases/tag/v0.1.0) |
+| **[ph4ntom Vitrum](https://github.com/ph4ntom-rev/ph4ntom-vitrum)** | Autonomous *in-vitro* static malware dissection architecture & epistemic verification engine for IDA Pro 9.5 (Proprietary — Provided With Author) | 🔒 [Spec & Theory](https://github.com/ph4ntom-rev/ph4ntom-vitrum) |
 | **[rtw89 Monitor Injection](https://github.com/ph4ntom-rev/rtw89-monitor-injection)** | Realtek RTL8852AE Monitor Mode & Raw Frame Injection Linux kernel driver patch | 🚀 [v1.0.0](https://github.com/ph4ntom-rev/rtw89-monitor-injection) |
 | ~~**[Antigravity Windows Bridge](https://github.com/ph4ntom-rev/antigravity-windows-bridge)**~~ | AI-powered local Windows API REST Bridge | ⚪ Inactive / Deprecated |
 | ~~**[Antigravity Chrome Bridge](https://github.com/ph4ntom-rev/antigravity-chrome-bridge)**~~ | Native C++ MCP server for Chrome automation — zero dependencies, 22 tools | ⚪ Inactive / Deprecated |
